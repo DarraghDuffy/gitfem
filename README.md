@@ -1,7 +1,7 @@
 # gitfem
 
 
-A simple bash script for Front End Masters (fem) tracking the project commits.
+A simple bash script for Front End Masters (fem) tracking the project commits. Saves ou have to type in the git commands each time a new branch is created.
 
 Open git.sh change checkoutDir appropriately
 
@@ -24,4 +24,5 @@ git clean -f
 where X is the step number
 
 Load into .profile or .bashrc by adding following line
+
 source "/path-to-file/git.sh"
