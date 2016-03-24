@@ -1,7 +1,7 @@
 # gitfem
 
 
-A simple bash script for Front End Masters (fem) tracking the project commits. Saves ou have to type in the git commands each time a new branch is created.
+A simple bash script for Front End Masters (fem) tracking the project branches (fem-1, fem-2 ... fem13). Saves you having to type in the git commands each time a new branch is created. Changes you to your checkout directory, after branch checkout performs directory listing and runs a git branch confirming the current branch.
 
 Open git.sh change checkoutDir appropriately
 
@@ -20,6 +20,8 @@ git branch --track fem-X origin/fem-X
 git checkout fem-X
 
 git clean -f
+
+ls && git branch
 
 where X is the step number
 

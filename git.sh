@@ -23,5 +23,6 @@ function gitfem() {
       git branch --track fem-"$1" origin/fem-"$1"
       git checkout fem-"$1"
       git clean -f
+      ls && git branch
   fi
 }
